@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 import { Shield, Users, Wrench, DollarSign } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';

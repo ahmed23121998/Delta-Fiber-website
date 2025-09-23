@@ -1,4 +1,3 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
 import {
   Facebook,
@@ -15,7 +14,7 @@ const Footer = () => {
   const { t, language } = useLanguage();
   const navigate = useNavigate();
 
-  const handleNavigate = (path) => {
+  const handleNavigate = (path: string) => {
     navigate(path);
     window.scrollTo({ top: 0, behavior: "smooth" });
   };

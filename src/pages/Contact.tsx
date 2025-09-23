@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import {
   MapPin,
@@ -7,7 +6,6 @@ import {
   Clock,
   Facebook,
   Twitter,
-  Youtube,
   Instagram,
   Linkedin,
 } from "lucide-react";

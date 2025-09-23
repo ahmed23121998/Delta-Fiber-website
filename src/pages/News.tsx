@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Calendar, User, ArrowRight, X } from "lucide-react";
+import { X } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
-import { Button } from "@/components/ui/button";
 
 const News = () => {
   const { t, language } = useLanguage();

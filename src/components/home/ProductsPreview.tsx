@@ -1,6 +1,5 @@
-import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Droplets, Zap, Building, Wrench } from "lucide-react";
+import { ArrowRight} from "lucide-react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
@@ -38,15 +37,15 @@ const ProductsPreview = () => {
     },
   ];
 
-  const getColorClasses = (color: string) => {
-    const colors = {
-      blue: "bg-blue-600 hover:bg-blue-700",
-      green: "bg-green-600 hover:bg-green-700",
-      purple: "bg-purple-600 hover:bg-purple-700",
-      orange: "bg-orange-600 hover:bg-orange-700",
-    };
-    return colors[color as keyof typeof colors];
-  };
+  // const getColorClasses = (color: string) => {
+  //   const colors = {
+  //     blue: "bg-blue-600 hover:bg-blue-700",
+  //     green: "bg-green-600 hover:bg-green-700",
+  //     purple: "bg-purple-600 hover:bg-purple-700",
+  //     orange: "bg-orange-600 hover:bg-orange-700",
+  //   };
+  //   return colors[color as keyof typeof colors];
+  // };
 
   return (
     <section className="py-20 bg-white">

@@ -1,6 +1,5 @@
-import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Stars as Stairs } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 import { Link } from "react-router-dom";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { Button } from "@/components/ui/button";
