@@ -15,7 +15,7 @@ function App() {
   return (
     <LanguageProvider>
       <Router>
-        <ScrollToTop /> {/* هذا سيجعل كل التنقلات ترجع لأعلى الصفحة */}
+        <ScrollToTop /> 
         <div className="min-h-screen bg-white">
           <Header />
           <main>
