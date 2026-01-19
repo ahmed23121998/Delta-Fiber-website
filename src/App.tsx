@@ -5,6 +5,7 @@ import Footer from "@/components/layout/Footer";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Products from "@/pages/Products";
+import ProductDetail from "@/pages/ProductDetail";
 import Gallery from "@/pages/Gallery";
 import News from "@/pages/News";
 import Contact from "@/pages/Contact";
@@ -15,7 +16,7 @@ function App() {
   return (
     <LanguageProvider>
       <Router>
-        <ScrollToTop /> 
+        <ScrollToTop />
         <div className="min-h-screen bg-white">
           <Header />
           <main>
@@ -23,6 +24,7 @@ function App() {
               <Route path="/" element={<Home />} />
               <Route path="/about" element={<About />} />
               <Route path="/products" element={<Products />} />
+              <Route path="/products/:productId" element={<ProductDetail />} />
               <Route path="/gallery" element={<Gallery />} />
               <Route path="/portfolio" element={<Portfolio />} />
               <Route path="/news" element={<News />} />

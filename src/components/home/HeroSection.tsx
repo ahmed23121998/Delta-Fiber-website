@@ -65,7 +65,7 @@ const HeroSection = () => {
 
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
-      <AnimatePresence mode="wait">
+      <AnimatePresence>
         <motion.div
           key={currentSlide}
           initial={{ opacity: 0 }}
